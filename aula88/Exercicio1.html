@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 - Verificação de Número Positivo, Negativo ou Zero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            display: inline-block;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            max-width: 500px;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="number"] {
+            padding: 8px;
+            margin: 10px 0;
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #004c99;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Exercício 1 - Verificação de Número Positivo, Negativo ou Zero</h2>
+        
+        <p><strong>1 - Verificação de número positivo, negativo ou zero:</strong></p>
+        <p><strong>Enunciado:</strong> Desenvolva um algoritmo em PHP que receba, através de um formulário HTML, um número digitado pelo usuário e determine se o valor é positivo, negativo ou igual a zero. A resposta deve ser exibida no navegador em formato de mensagem.</p>
+        <p><em>Exemplo de saída:</em> "Valor Positivo", "Valor Negativo" ou "Igual a Zero".</p>
+        <hr>
+
+        <form action="Exercicio1.php" method="post">
+            <label for="numero">Digite um número:</label><br>
+            <input type="number" name="numero" id="numero" required><br><br>
+            <input type="submit" value="Verificar">
+        </form>
+    </div>
+</body>
+</html>
