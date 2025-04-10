@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado - Exercício 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 <?php
 $nota1 = $_POST['nota1'];
 $nota2 = $_POST['nota2'];
@@ -16,3 +24,5 @@ if ($media >= 7) {
     echo "<p>Aluno <strong>reprovado</strong>.</p>";
 }
 ?>
+</body>
+</html>
