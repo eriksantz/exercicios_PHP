@@ -19,6 +19,15 @@
         echo "<p>Você é <strong> menor de idade </strong>. </p>";
     }
     ?>
+      <div class="botoes-navegacao">
+    <button onclick="history.back()">
+        🔙 Voltar
+    </button>
+    <button onclick="location.href='index.html'">
+        🏠 Home
+    </button>
+</div>
     
 </body>
+
 </html>
