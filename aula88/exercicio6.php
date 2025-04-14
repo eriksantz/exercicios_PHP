@@ -19,5 +19,13 @@
     }
     echo "</ul>";
     ?>
+      <div class="botoes-navegacao">
+    <button onclick="history.back()">
+        🔙 Voltar
+    </button>
+    <button onclick="location.href='index.html'">
+        🏠 Home
+    </button>
+</div>
 </body>
 </html>
