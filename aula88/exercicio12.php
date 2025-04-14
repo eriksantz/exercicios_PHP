@@ -54,8 +54,17 @@ $result = $conn->query($sql);
     <?php else: ?>
         <p>Nenhum aluno encontrado.</p>
     <?php endif; ?>
+    <div class="botoes-navegacao">
+    <button onclick="history.back()">
+        🔙 Voltar
+    </button>
+    <button onclick="location.href='index.html'">
+        🏠 Home
+    </button>
+</div>
 
 </body>
 </html>
 
 <?php $conn->close(); ?>
+
